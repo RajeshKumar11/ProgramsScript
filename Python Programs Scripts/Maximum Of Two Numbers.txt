@@ -1,0 +1,17 @@
+In this video, we will try to understand, how to write a python program, to find the maximum of, given two numbers. 
+We defined a function, in line 1 with two parameters passed to it. 
+In line 3, we have written an if condition, which checks if variable a, is greater than or equal to, value in variable b. 
+If the condition is satisfied, it executes line 4 statement, within the if block, and returns variable a value. 
+If the condition is not satisfied, it executes line 6 statement, within the else block, and returns variable b value. 
+In line 9, we are declaring first variable, with name as a, to store its value in it. 
+In line 10, we are declaring second variable, with name as b, to store its value in it. 
+In line 11, we are calling the function, that is defined in line 1. 
+Student. 
+What is the goal, of this program? what is it, trying to teaching us? 
+This program is trying, to teach you 6 parts. 
+Line 1, is teaching you, how to write a syntax of a function with 2 parameters. 
+Line 3, is teaching you, how to write a syntax of an if block, and how to use greater than or equal to, arithmatic operators together. 
+Line 5, is teaching you, how to write a syntax of an else block. 
+Lines 9, and 10, are teaching you, how to declare, and store data in variables individually. 
+Line 11, is teaching you, how to call a defined function, by including parameters to it. 
+Line 11, is also teaching you, how to make a nested function calling, that is, first maximum function is called, and on its execution completion, its output becomes, parameter for the print function, to pring output to the console. 
