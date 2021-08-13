@@ -1,57 +1,55 @@
-
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-	  <title>Bootstrap Example</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	  <script src="js/FileSaver.js"></script>
-	</head>
-	<script type="text/javascript">
-		function loadCountryData(loadCountryDataId) {
-			// let loadCountryDataId = document.getElementById("loadCountryData").value;
-			
-			console.log(loadCountryDataId);
-			
-			iframeid = "htmlFileData";
-			document.getElementById(iframeid).src =  "data/"+ loadCountryDataId;
-		}
-	</script>
-	<style type="text/css">
-		.list-group{
-		    max-height: 300px;
-		    margin-bottom: 10px;
-		    overflow:scroll;
-		    -webkit-overflow-scrolling: touch;
-		}
-	</style>
-	<body>
-	<div class="jumbotron text-center">
-	  <h1>Programs Scripts</h1>
-	</div>
-	<div class="container">
-	  <div class="row">
-	    <div class="col-sm-4">
-	    	<h3>Country List</h3>
-	    	<div class="panel-body">
-				<ul class="list-group">
-					<!-- <button id="loadCountryData" onclick="loadCountryData(value)" type="button" class="btn" value="Afghanistan.html">Afghanistan</button> -->
-					<li><a href="Python Programs Scripts/Maximum Of Two Numbers.html">Maximum Of Two Numbers</a></li>
-				</ul>		
-			</div>
-	    </div>
-	    <div class="col-sm-8">
-	      <h3>Country Details</h3>
-	      <iframe src="" id="htmlFileData" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" class="col-sm-12" height=600>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/FileSaver.js"></script>
+</head>
+<script type="text/javascript">
+	function loadCountryData(loadCountryDataId) {
+		// let loadCountryDataId = document.getElementById("loadCountryData").value;
+		
+		console.log(loadCountryDataId);
+		
+		iframeid = "htmlFileData";
+		document.getElementById(iframeid).src =  "data/"+ loadCountryDataId;
+	}
+</script>
+<style type="text/css">
+	.list-group{
+	    max-height: 300px;
+	    margin-bottom: 10px;
+	    overflow:scroll;
+	    -webkit-overflow-scrolling: touch;
+	}
+</style>
+<body>
+<div class="jumbotron text-center">
+  <h1>Programs Scripts</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+    	<h3>Country List</h3>
+    	<div class="panel-body">
+			<ul class="list-group">
+				<!-- <button id="loadCountryData" onclick="loadCountryData(value)" type="button" class="btn" value="Afghanistan.html">Afghanistan</button> -->
+				<li><a href="Python Programs Scripts/Maximum Of Two Numbers.html">Maximum Of Two Numbers</a></li>
+			</ul>		
+		</div>
+    </div>
+    <div class="col-sm-8">
+      <h3>Country Details</h3>
+      <iframe src="" id="htmlFileData" name="targetframe" allowTransparency="true" scrolling="yes" frameborder="0" class="col-sm-12" height=600>
     	  </iframe>
-	    </div>
-	  </div>
-	</div>
-	</body>
-	</html>
-	
+    </div>
+  </div>
+</div>
+</body>
+</html>
